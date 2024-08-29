@@ -8,20 +8,8 @@
   height: 100dvh;
 }
 
-.contents {
-  border: 4px solid green;
-}
-
-.contents-header {
-  border: 4px solid orange;
-}
-
 .contents-main {
   border: 4px solid purple;
-}
-
-.contents-footer {
-  border: 4px solid blue;
-  display: flex;
-  justify-content: space-between;
+  height: 100%;
+  overflow-y: auto;
 }
