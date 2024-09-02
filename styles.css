@@ -16,6 +16,7 @@
 
 .contents-parent {
   border: 4px solid cyan;
+  overflow-y: auto;
   flex: 100%;
   display: flex;
   flex-direction: column;
