@@ -16,7 +16,23 @@
         </ul>
       </nav>
       <main id="app-main">
-        <div class="page-header"><h1>Page Header</h1></div>
+        <div class="page-header">
+          <h1>Page Header</h1>
+          <p>
+            The goal is to keep the contents below from causing this main area
+            from expanding beyond the viewport height.
+          </p>
+          <p>
+            Any scrolling should be constrained to the main contents. This page
+            header should remain at the top of the main container, and the
+            contents footer should remain at the bottom.
+          </p>
+          <p>
+            The key is to use <code>overflow-y: auto</code> from the contents
+            all the way up to this main container ancestor, to prevent expanding
+            the containing elements from expanding their bounding boxes.
+          </p>
+        </div>
         <div class="contents-container">
           <div class="contents-main">
             <ul>
